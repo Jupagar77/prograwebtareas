@@ -34,17 +34,27 @@
 
     <link rel="shortcut icon" type="image/png" href="images/icon.png"/>
 
+    <style rel="stylesheet">
+        html, body {
+            background: gainsboro;
+            height: 100%;
+        }
+    </style>
+
 </head>
 <body>
 
 <header>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse" style="margin-bottom:0">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Tareas Programacion Web</a>
+                <a class="navbar-brand" href="index.php">Tareas Programacion Web</a>
             </div>
             <ul class="nav navbar-nav">
-                <li><a href="tarea1/convertidorUnidades.php">Tarea 1</a></li>
+                <li><a href="tarea1/convertidorUnidades.php">Tarea I</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li><a href="tarea2/agendaCookies.php">Tarea II</a></li>
             </ul>
         </div>
     </nav>
