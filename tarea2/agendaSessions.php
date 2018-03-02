@@ -59,6 +59,10 @@
             background-color: #4CAF50;
             color: white;
         }
+
+        .container{
+            height: 100%;
+        }
     </style>
 </head>
 <body>
@@ -129,7 +133,7 @@ if ($data) {
 
 ?>
 
-<div class="container" style="height: 580px">
+<div class="container">
     <h2>Calendario de eventos ( $_SESSION ) </h2>
     <a style="margin-bottom: 20px" href="agendaCookies.php">Usar cookies</a>
     <table class="tg" style="width: 100%">

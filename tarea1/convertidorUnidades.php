@@ -47,6 +47,10 @@
         table, th, td {
             border: 1px solid gainsboro;
         }
+
+        .container{
+            height: 100%;
+        }
     </style>
 </head>
 <body>

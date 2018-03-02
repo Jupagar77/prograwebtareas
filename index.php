@@ -39,6 +39,10 @@
             background: gainsboro;
             height: 100%;
         }
+
+        .container{
+            height: 100%;
+        }
     </style>
 
 </head>
@@ -60,7 +64,7 @@
     </nav>
 </header>
 
-<div class="main">
+<div class="container">
 
 </div>
 
