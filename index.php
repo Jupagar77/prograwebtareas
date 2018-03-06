@@ -68,7 +68,9 @@
 </header>
 
 <div class="container" style="text-align: center">
-    <img style="    border-radius: 5px;
+    <img style="
+    width: 90%;
+    border-radius: 5px;
     margin-top: 5%;
     border: chartreuse solid 5px;" src="images/contact.png">
 </div>

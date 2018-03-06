@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ec62559-f168-40ce-a6c5-5485d542f86f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tarea1/convertidorUnidades.php" afterPath="$PROJECT_DIR$/tarea1/convertidorUnidades.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tarea2/agendaCookies.php" afterPath="$PROJECT_DIR$/tarea2/agendaCookies.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tarea2/agendaSessions.php" afterPath="$PROJECT_DIR$/tarea2/agendaSessions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tarea3/contactos.php" afterPath="$PROJECT_DIR$/tarea3/contactos.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contactos.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contactos.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tarea3/contactos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="333" column="139" lean-forward="false" selection-start-line="333" selection-start-column="139" selection-end-line="333" selection-end-column="139" />
+            <state relative-caret-position="-3431">
+              <caret line="110" column="8" lean-forward="true" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -36,27 +40,17 @@
                 <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#5;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1520300177002" expanded="true" signature="9837:9999" ph="..." />
+                <marker date="1520300436786" expanded="true" signature="9840:10002" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contactos.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tarea3/contactos.txt">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detalles.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tarea3/detalles.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="356">
+              <caret line="71" column="14" lean-forward="false" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -65,10 +59,48 @@
       <file leaf-file-name="agendaCookies.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tarea2/agendaCookies.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1854">
-              <caret line="108" column="20" lean-forward="false" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="78" column="49" lean-forward="false" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
+                <marker date="1520300431562" expanded="true" signature="5053:5618" ph="..." />
+                <marker date="1520300431562" expanded="true" signature="5227:5592" ph="..." />
+                <marker date="1520300431562" expanded="true" signature="5296:5568" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agendaSessions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tarea2/agendaSessions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding>
+                <marker date="1520300422638" expanded="true" signature="5031:5597" ph="..." />
+                <marker date="1520300422638" expanded="true" signature="5205:5571" ph="..." />
+                <marker date="1520300422638" expanded="true" signature="5275:5547" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convertidorUnidades.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tarea1/convertidorUnidades.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="66" column="49" lean-forward="false" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+              <folding>
+                <marker date="1520300422686" expanded="true" signature="16556:16573" ph="..." />
+                <marker date="1520300422686" expanded="true" signature="16754:16771" ph="..." />
+                <marker date="1520300422686" expanded="true" signature="21509:21526" ph="..." />
+                <marker date="1520300422686" expanded="true" signature="21707:21724" ph="..." />
+                <marker date="1520300422686" expanded="true" signature="26476:26493" ph="..." />
+                <marker date="1520300422686" expanded="true" signature="26674:26691" ph="..." />
+                <marker date="1520300422686" expanded="true" signature="31422:31439" ph="..." />
+                <marker date="1520300422686" expanded="true" signature="31620:31637" ph="..." />
+                <marker date="1520300422686" expanded="true" signature="36369:36386" ph="..." />
+                <marker date="1520300422686" expanded="true" signature="36567:36584" ph="..." />
               </folding>
             </state>
           </provider>
@@ -106,8 +138,8 @@
       <find>@</find>
       <find>Editar</find>
       <find>footer</find>
-      <find>header</find>
       <find>direccion</find>
+      <find>header</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;h2 style=&quot;margin-top:0&quot;&gt;</replace>
@@ -133,11 +165,11 @@
         <option value="$PROJECT_DIR$/../clase3.php" />
         <option value="$PROJECT_DIR$/tarea3/contactos.txt" />
         <option value="$PROJECT_DIR$/tarea3/detalles.txt" />
-        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/tarea2/agendaSessions.php" />
         <option value="$PROJECT_DIR$/tarea1/convertidorUnidades.php" />
         <option value="$PROJECT_DIR$/tarea2/agendaCookies.php" />
-        <option value="$PROJECT_DIR$/tarea2/agendaSessions.php" />
         <option value="$PROJECT_DIR$/tarea3/contactos.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -149,7 +181,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
+    <option name="x" value="117" />
     <option name="y" value="-4" />
     <option name="width" value="1291" />
     <option name="height" value="733" />
@@ -178,6 +210,21 @@
             <path>
               <item name="prograweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="prograweb" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="prograweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prograweb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tarea1" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="prograweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prograweb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tarea2" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="prograweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prograweb" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tarea3" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -236,7 +283,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43030000" />
+    <option name="totallyTimeSpent" value="43413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -333,6 +380,9 @@
           <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
+            <marker date="1520300431562" expanded="true" signature="5053:5618" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5227:5592" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5296:5568" ph="..." />
           </folding>
         </state>
       </provider>
@@ -358,6 +408,9 @@
           <caret line="203" column="0" lean-forward="true" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
+            <marker date="1520300431562" expanded="true" signature="5053:5618" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5227:5592" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5296:5568" ph="..." />
           </folding>
         </state>
       </provider>
@@ -435,6 +488,9 @@
           <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="22" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
+            <marker date="1520300431562" expanded="true" signature="5053:5618" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5227:5592" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5296:5568" ph="..." />
           </folding>
         </state>
       </provider>
@@ -486,6 +542,9 @@
           <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="22" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
+            <marker date="1520300431562" expanded="true" signature="5053:5618" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5227:5592" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5296:5568" ph="..." />
           </folding>
         </state>
       </provider>
@@ -512,6 +571,9 @@
           <caret line="89" column="4" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="23" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
+            <marker date="1520300431562" expanded="true" signature="5053:5618" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5227:5592" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5296:5568" ph="..." />
           </folding>
         </state>
       </provider>
@@ -544,6 +606,9 @@
           <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
+            <marker date="1520300431562" expanded="true" signature="5053:5618" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5227:5592" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5296:5568" ph="..." />
           </folding>
         </state>
       </provider>
@@ -569,6 +634,9 @@
           <caret line="203" column="0" lean-forward="true" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
+            <marker date="1520300431562" expanded="true" signature="5053:5618" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5227:5592" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5296:5568" ph="..." />
           </folding>
         </state>
       </provider>
@@ -635,50 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="67" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tarea1/convertidorUnidades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="76" column="14" lean-forward="true" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
-          <folding>
-            <marker date="1520299765991" expanded="true" signature="16553:16570" ph="..." />
-            <marker date="1520299765991" expanded="true" signature="16751:16768" ph="..." />
-            <marker date="1520299765991" expanded="true" signature="21506:21523" ph="..." />
-            <marker date="1520299765991" expanded="true" signature="21704:21721" ph="..." />
-            <marker date="1520299765991" expanded="true" signature="26473:26490" ph="..." />
-            <marker date="1520299765991" expanded="true" signature="26671:26688" ph="..." />
-            <marker date="1520299765991" expanded="true" signature="31419:31436" ph="..." />
-            <marker date="1520299765991" expanded="true" signature="31617:31634" ph="..." />
-            <marker date="1520299765991" expanded="true" signature="36366:36383" ph="..." />
-            <marker date="1520299765991" expanded="true" signature="36564:36581" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tarea2/agendaCookies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1854">
-          <caret line="108" column="20" lean-forward="false" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tarea2/agendaSessions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tarea3/contactos.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -687,10 +711,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tarea2/agendaSessions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <marker date="1520300422638" expanded="true" signature="5031:5597" ph="..." />
+            <marker date="1520300422638" expanded="true" signature="5205:5571" ph="..." />
+            <marker date="1520300422638" expanded="true" signature="5275:5547" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea1/convertidorUnidades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="66" column="49" lean-forward="false" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
+          <folding>
+            <marker date="1520300422686" expanded="true" signature="16556:16573" ph="..." />
+            <marker date="1520300422686" expanded="true" signature="16754:16771" ph="..." />
+            <marker date="1520300422686" expanded="true" signature="21509:21526" ph="..." />
+            <marker date="1520300422686" expanded="true" signature="21707:21724" ph="..." />
+            <marker date="1520300422686" expanded="true" signature="26476:26493" ph="..." />
+            <marker date="1520300422686" expanded="true" signature="26674:26691" ph="..." />
+            <marker date="1520300422686" expanded="true" signature="31422:31439" ph="..." />
+            <marker date="1520300422686" expanded="true" signature="31620:31637" ph="..." />
+            <marker date="1520300422686" expanded="true" signature="36369:36386" ph="..." />
+            <marker date="1520300422686" expanded="true" signature="36567:36584" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea2/agendaCookies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="78" column="49" lean-forward="false" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+            <marker date="1520300431562" expanded="true" signature="5053:5618" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5227:5592" ph="..." />
+            <marker date="1520300431562" expanded="true" signature="5296:5568" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tarea3/contactos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="333" column="139" lean-forward="false" selection-start-line="333" selection-start-column="139" selection-end-line="333" selection-end-column="139" />
+        <state relative-caret-position="-3431">
+          <caret line="110" column="8" lean-forward="true" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -698,8 +766,16 @@
             <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#4;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#5;n#form#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1520300177002" expanded="true" signature="9837:9999" ph="..." />
+            <marker date="1520300436786" expanded="true" signature="9840:10002" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="71" column="14" lean-forward="false" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
