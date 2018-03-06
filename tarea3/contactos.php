@@ -331,7 +331,7 @@ if ($access_log) {
 
                 <div class="form-group">
                     <label for="direccion">Dirección postal</label>
-                    <input maxlength="30" name="direccion" id="direccion" style="height: 90px; width: 100%" form="contacto"><?php echo $direccion ?></input>
+                    <input maxlength="30" name="direccion" id="direccion" style="height: 90px; width: 100%" value="<?php echo $direccion ?>">
                 </div>
 
                 <div class="form-group">
