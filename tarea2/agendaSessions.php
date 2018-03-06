@@ -71,14 +71,21 @@
     <nav class="navbar navbar-inverse" style="margin-bottom:0">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="../index.php">Tareas Programacion Web</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.php">Tareas Programacion Web</a>
             </div>
-            <ul class="nav navbar-nav">
-                <li><a href="../tarea1/convertidorUnidades.php">Tarea I</a></li>
-            </ul>
-            <ul class="nav navbar-nav">
-                <li><a href="agendaCookies.php">Tarea II</a></li>
-            </ul>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="../tarea1/convertidorUnidades.php">Tarea I</a></li>
+                    <li><a href="agendaCookies.php">Tarea II</a></li>
+                    <li><a href="../tarea3/contactos.php">Tarea III</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 </header>
@@ -192,14 +199,6 @@ if ($data) {
         </tr>
     </table>
 </div>
-
-<footer style="height:60px;padding: 10px; border-top: #333333 solid 1px; background: black; color: white">
-    <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a
-            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
-            href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC
-            3.0 BY</a></div>
-</footer>
-
 </body>
 </html>
 

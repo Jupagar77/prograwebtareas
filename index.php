@@ -39,10 +39,6 @@
             background: gainsboro;
             height: 100%;
         }
-
-        .container{
-            height: 100%;
-        }
     </style>
 
 </head>
@@ -52,20 +48,29 @@
     <nav class="navbar navbar-inverse" style="margin-bottom:0">
         <div class="container-fluid">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="index.php">Tareas Programacion Web</a>
             </div>
-            <ul class="nav navbar-nav">
-                <li><a href="tarea1/convertidorUnidades.php">Tarea I</a></li>
-            </ul>
-            <ul class="nav navbar-nav">
-                <li><a href="tarea2/agendaCookies.php">Tarea II</a></li>
-            </ul>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="tarea1/convertidorUnidades.php">Tarea I</a></li>
+                    <li><a href="tarea2/agendaCookies.php">Tarea II</a></li>
+                    <li><a href="tarea3/contactos.php">Tarea III</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 </header>
 
-<div class="container">
-
+<div class="container" style="text-align: center">
+    <img style="    border-radius: 5px;
+    margin-top: 5%;
+    border: chartreuse solid 5px;" src="images/contact.png">
 </div>
 
 <footer style="position:absolute;bottom:0;width:100%;height:60px;padding: 10px; border-top: #333333 solid 1px; background: black; color: white">
