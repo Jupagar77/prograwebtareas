@@ -1,0 +1,51 @@
+{
+  "facturas": [
+    {
+      "id": 2,
+      "numero": "UIoXU9VO",
+      "fecha": "2018-03-31",
+      "cliente": "Andrea Mayela",
+      "borrada": 1,
+      "impuestos": 0,
+      "monto_total": 0
+    },
+    {
+      "id": 3,
+      "numero": "43QocRLT",
+      "fecha": "2018-03-31",
+      "cliente": "Juan Vainas",
+      "borrada": 1,
+      "impuestos": 351,
+      "monto_total": 3051
+    }
+  ],
+  "productos": [
+    {
+      "id": 4,
+      "cantidad": "4",
+      "descripcion": "leche",
+      "borrada": 1,
+      "valor_unitario": "900",
+      "subtotal": 3600,
+      "factura_id": 2
+    },
+    {
+      "id": 2,
+      "cantidad": "3",
+      "descripcion": "queso crema",
+      "borrada": 1,
+      "valor_unitario": "800",
+      "subtotal": 2400,
+      "factura_id": 2
+    },
+    {
+      "id": 3,
+      "cantidad": "3",
+      "borrada": 1,
+      "descripcion": "helotes",
+      "valor_unitario": "900",
+      "subtotal": 2700,
+      "factura_id": "3"
+    }
+  ]
+}
