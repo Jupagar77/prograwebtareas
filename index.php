@@ -62,6 +62,7 @@
                     <li><a href="tarea2/agendaCookies.php">Tarea II</a></li>
                     <li><a href="tarea3/contactos.php">Tarea III</a></li>
                     <li><a href="tarea4/facturacion.php">Tarea IV</a></li>
+                    <li><a href="tarea5/facturacion.php">Tarea V</a></li>
                 </ul>
             </div>
         </div>
@@ -72,8 +73,7 @@
     <img style="
     width: 90%;
     border-radius: 5px;
-    margin-top: 5%;
-    border: chartreuse solid 5px;" src="images/contact.png">
+    margin-top: 5%;" src="images/contact.png">
 </div>
 
 <footer style="position:absolute;bottom:0;width:100%;height:60px;padding: 10px; border-top: #333333 solid 1px; background: black; color: white">
