@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tareas Programacion Web - UNA - 115920802</title>
+
+    <script rel="script" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" type="image/png" href="../images/icon.png"/>
+
+    <style rel="stylesheet">
+        html, body {
+            background: gainsboro;
+            height: 100%;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .container {
+            height: 100%;
+        }
+
+        .contact {
+            padding: 2%;
+            border-bottom: black solid 1px;
+        }
+
+        .contact-edit {
+            border-left: black solid 1px;
+            padding-left: 3%;
+        }
+
+        .contact-borrar {
+            padding-left: 10%
+        }
+
+        .borrar-alert {
+            margin-top: 0;
+            background-color: antiquewhite;
+            border: red solid 1px;
+            padding: 1%;
+            color: red;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .contact-edit {
+                border: none;
+                padding: 1%;
+            }
+
+            .contact-borrar {
+                padding: 1%;
+            }
+
+            .borrar-alert {
+                margin-top: 5px;
+            }
+
+            .boton-danger {
+                float: right;
+            }
+        }
+
+    </style>
+
+    <script src="react.development.js"></script>
+    <script src="react-dom.development.js"></script>
+    <script src="babel.min.js"></script>
+    <script type="text/javascript" src="all.json"></script>
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-inverse" style="margin-bottom:0">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.php">Tareas Programacion Web</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="../tarea1/convertidorUnidades.php">Tarea I</a></li>
+                    <li><a href="../tarea2/agendaCookies.php">Tarea II</a></li>
+                    <li><a href="../tarea3/contactos.php">Tarea III</a></li>
+                    <li><a href="../tarea4/facturacion.php">Tarea IV</a></li>
+                    <li><a href="../tarea5/facturacion.php">Tarea V</a></li>
+                    <li><a href="../tarea6/facturacion.php">Tarea VI</a></li>
+                    <li><a href="regiones.html">Tarea VII</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Paises del Mundo</h2>
+    <div class="row">
+        <div id="root" class="col-sm-12">
+        </div>
+
+        <script type="text/babel">
+
+            function loadJSON(callback) {
+                var xobj = new XMLHttpRequest();
+                xobj.overrideMimeType("application/json");
+                xobj.open('GET', 'all.json', true);
+                xobj.onreadystatechange = function () {
+                    if (xobj.readyState == 4 && xobj.status == "200") {
+                        callback(xobj.responseText);
+                    }
+                };
+                xobj.send(null);
+            }
+
+            loadJSON(function (response) {
+                var jsonData = JSON.parse(response);
+
+                function Tr(props) {
+                    return <div><tr><th>Pais</th><th>Codigo</th><th>Iso</th></tr> <tr>
+                        <td>{props.region.name}</td>
+                        <td>{props.region.country_code}</td>
+                        <td>{props.region.iso_3166_2}</td>
+                    </tr></div>
+                };
+
+                function Procesar(props) {
+
+                    const tabla = props.regiones.map(function(region){
+                        return <div>
+                            <h2>{region.region}</h2>
+                            <h3>{region.sub_region}</h3>
+                            <Tr region={region}></Tr>
+                        </div>;
+                    });
+                    return <div>{tabla}</div>
+                };
+
+                function Region(props) {
+                    const regionesOrdenadas = props.regiones.sort(
+                        (regionA, regionB) => {
+                            if (regionA.sub_region < regionB.sub_region)
+                                return -1;
+                            if (regionA.sub_region > regionB.sub_region)
+                                return 1;
+                            return 0;
+                        }
+                    );
+                    return <Procesar regiones={regionesOrdenadas}></Procesar>
+                };
+
+                ReactDOM.render(<Region regiones={jsonData}/>, document.getElementById('root'));
+            });
+
+        </script>
+
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
+

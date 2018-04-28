@@ -127,6 +127,8 @@
                     <li><a href="contactos.php">Tarea III</a></li>
                     <li><a href="../tarea4/facturacion.php">Tarea IV</a></li>
                     <li><a href="../tarea5/facturacion.php">Tarea V</a></li>
+                    <li><a href="../tarea6/facturacion.php">Tarea VI</a></li>
+                    <li><a href="../tarea7/regiones.html">Tarea VII</a></li>
                 </ul>
             </div>
         </div>
